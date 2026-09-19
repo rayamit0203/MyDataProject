@@ -1,0 +1,15 @@
+{
+	"name": "caradfray",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "263c2939-31c8-4694-bff7-23f6c926dfe4",
+		"tenantId": "c3ff2244-99c4-490e-a07a-1f6aea954811"
+	}
+}
