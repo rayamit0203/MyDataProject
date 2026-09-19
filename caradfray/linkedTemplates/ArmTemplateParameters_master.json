@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "caradfray"
+		},
+		"ls_databricks_accessToken": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_sqlDB_password": {
+			"value": ""
+		},
+		"ls_databricks_properties_typeProperties_existingClusterId": {
+			"value": "0915-185720-c2tbsl9u"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://cardatalakeray.dfs.core.windows.net/"
+		},
+		"ls_github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_sqlDB_properties_typeProperties_server": {
+			"value": "carazureserverray.database.windows.net"
+		},
+		"ls_sqlDB_properties_typeProperties_database": {
+			"value": "carsqldbray"
+		},
+		"ls_sqlDB_properties_typeProperties_userName": {
+			"value": "carserveradmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
